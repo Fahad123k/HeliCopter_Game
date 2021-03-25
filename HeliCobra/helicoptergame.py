@@ -38,8 +38,7 @@ background = pygame.image.load('back.png')
 blast = pygame.image.load('blast.png')
 
 
-# Definition of Fuction s
-#Quit game function
+# Definition of Fuctions
 def paused():
     font = pygame.font.Font('freesansbold.ttf', 20)
     text = font.render("Paused P:" ,True, white)
